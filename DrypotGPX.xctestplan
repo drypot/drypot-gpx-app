@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "2E9CCFD7-549A-4985-AB3E-F1333554A0D4",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:DrypotGPX.xcodeproj",
+      "identifier" : "00FF334A2B3CDE4800AFE95A",
+      "name" : "DrypotGPX"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:DrypotGPX.xcodeproj",
+        "identifier" : "00FF335E2B3CDE4A00AFE95A",
+        "name" : "DrypotGPXTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:DrypotGPX.xcodeproj",
+        "identifier" : "00FF33682B3CDE4A00AFE95A",
+        "name" : "DrypotGPXUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
