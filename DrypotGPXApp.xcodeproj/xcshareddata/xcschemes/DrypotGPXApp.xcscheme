@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00FF334A2B3CDE4800AFE95A"
-               BuildableName = "DrypotGPX.app"
-               BlueprintName = "DrypotGPX"
-               ReferencedContainer = "container:DrypotGPX.xcodeproj">
+               BuildableName = "DrypotGPXApp.app"
+               BlueprintName = "DrypotGPXApp"
+               ReferencedContainer = "container:DrypotGPXApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -40,9 +40,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00FF335E2B3CDE4A00AFE95A"
-               BuildableName = "DrypotGPXTests.xctest"
-               BlueprintName = "DrypotGPXTests"
-               ReferencedContainer = "container:DrypotGPX.xcodeproj">
+               BuildableName = "DrypotGPXAppTests.xctest"
+               BlueprintName = "DrypotGPXAppTests"
+               ReferencedContainer = "container:DrypotGPXApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -51,9 +51,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00FF33682B3CDE4A00AFE95A"
-               BuildableName = "DrypotGPXUITests.xctest"
-               BlueprintName = "DrypotGPXUITests"
-               ReferencedContainer = "container:DrypotGPX.xcodeproj">
+               BuildableName = "DrypotGPXAppUITests.xctest"
+               BlueprintName = "DrypotGPXAppUITests"
+               ReferencedContainer = "container:DrypotGPXApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -73,9 +73,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "00FF334A2B3CDE4800AFE95A"
-            BuildableName = "DrypotGPX.app"
-            BlueprintName = "DrypotGPX"
-            ReferencedContainer = "container:DrypotGPX.xcodeproj">
+            BuildableName = "DrypotGPXApp.app"
+            BlueprintName = "DrypotGPXApp"
+            ReferencedContainer = "container:DrypotGPXApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -90,9 +90,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "00FF334A2B3CDE4800AFE95A"
-            BuildableName = "DrypotGPX.app"
-            BlueprintName = "DrypotGPX"
-            ReferencedContainer = "container:DrypotGPX.xcodeproj">
+            BuildableName = "DrypotGPXApp.app"
+            BlueprintName = "DrypotGPXApp"
+            ReferencedContainer = "container:DrypotGPXApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
