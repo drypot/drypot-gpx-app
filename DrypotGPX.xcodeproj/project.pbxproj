@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0028C7F82B7A574E0089B93B /* Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0028C7F72B7A574E0089B93B /* Publisher.swift */; };
+		0028C7F92B7A574E0089B93B /* Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0028C7F72B7A574E0089B93B /* Publisher.swift */; };
+		0028C7FF2B7A5BF10089B93B /* PublisherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0028C7FE2B7A5BF10089B93B /* PublisherTests.swift */; };
 		00FF334F2B3CDE4800AFE95A /* DrypotGPXApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FF334E2B3CDE4800AFE95A /* DrypotGPXApp.swift */; };
 		00FF33512B3CDE4800AFE95A /* DrypotGPXDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FF33502B3CDE4800AFE95A /* DrypotGPXDocument.swift */; };
 		00FF33532B3CDE4800AFE95A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FF33522B3CDE4800AFE95A /* ContentView.swift */; };
@@ -37,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0028C7F72B7A574E0089B93B /* Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Publisher.swift; sourceTree = "<group>"; };
+		0028C7FE2B7A5BF10089B93B /* PublisherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublisherTests.swift; sourceTree = "<group>"; };
 		00FF334B2B3CDE4800AFE95A /* DrypotGPX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrypotGPX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00FF334E2B3CDE4800AFE95A /* DrypotGPXApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrypotGPXApp.swift; sourceTree = "<group>"; };
 		00FF33502B3CDE4800AFE95A /* DrypotGPXDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrypotGPXDocument.swift; sourceTree = "<group>"; };
@@ -79,6 +84,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0028C7F62B7A57270089B93B /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				0028C7F72B7A574E0089B93B /* Publisher.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		0028C7FA2B7A5AC80089B93B /* UtilTests */ = {
+			isa = PBXGroup;
+			children = (
+				0028C7FE2B7A5BF10089B93B /* PublisherTests.swift */,
+			);
+			path = UtilTests;
+			sourceTree = "<group>";
+		};
 		00FF33422B3CDE4800AFE95A = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +124,7 @@
 		00FF334D2B3CDE4800AFE95A /* DrypotGPX */ = {
 			isa = PBXGroup;
 			children = (
+				0028C7F62B7A57270089B93B /* Util */,
 				00FF337C2B3CDF9C00AFE95A /* GPXLib */,
 				00FF334E2B3CDE4800AFE95A /* DrypotGPXApp.swift */,
 				00FF33502B3CDE4800AFE95A /* DrypotGPXDocument.swift */,
@@ -126,6 +148,7 @@
 		00FF33622B3CDE4A00AFE95A /* DrypotGPXTests */ = {
 			isa = PBXGroup;
 			children = (
+				0028C7FA2B7A5AC80089B93B /* UtilTests */,
 				00FF337D2B3CDFB100AFE95A /* GPXLibTests */,
 			);
 			path = DrypotGPXTests;
@@ -220,7 +243,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1510;
-				LastUpgradeCheck = 1510;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					00FF334A2B3CDE4800AFE95A = {
 						CreatedOnToolsVersion = 15.1;
@@ -290,6 +313,7 @@
 				00FF334F2B3CDE4800AFE95A /* DrypotGPXApp.swift in Sources */,
 				00FF33532B3CDE4800AFE95A /* ContentView.swift in Sources */,
 				00FF337F2B3CE11B00AFE95A /* GPX.swift in Sources */,
+				0028C7F82B7A574E0089B93B /* Publisher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +321,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0028C7FF2B7A5BF10089B93B /* PublisherTests.swift in Sources */,
+				0028C7F92B7A574E0089B93B /* Publisher.swift in Sources */,
 				00FF33802B3CE11B00AFE95A /* GPX.swift in Sources */,
 				00FF33822B3CE1CB00AFE95A /* GPXTests.swift in Sources */,
 			);
@@ -361,6 +387,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -424,6 +451,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -454,6 +482,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"DrypotGPX/Preview Content\"";
 				DEVELOPMENT_TEAM = XFTC3W2MNQ;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -482,6 +511,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"DrypotGPX/Preview Content\"";
 				DEVELOPMENT_TEAM = XFTC3W2MNQ;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -508,6 +538,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = XFTC3W2MNQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.6;
@@ -527,6 +558,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = XFTC3W2MNQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.6;
@@ -545,6 +577,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = XFTC3W2MNQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
@@ -562,6 +595,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = XFTC3W2MNQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
